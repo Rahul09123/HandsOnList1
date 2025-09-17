@@ -1,2 +1,1 @@
-# Linux-HandsOn-List-1
-# Hands-On-List1
+# Hands-On-List-1

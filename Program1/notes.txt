@@ -1,0 +1,25 @@
+/*
+============================================================================
+Name : 18a.c
+Author : Rahul Raman
+Description : Create the following types of a files using (i) shell command
+a. soft link (symlink system call)
+b. hard link (link system call)
+c. FIFO (mkfifo Library Function or mknod system call)
+Date: 31st Aug, 2025.
+============================================================================
+*/
+
+Using commands
+
+Creating a file
+asus@asus-TUF-Gaming-FX505DT-FX505DT:~/Desktop/Linux/Program1$ vim text1.txt
+
+Creating a Soft Link
+asus@asus-TUF-Gaming-FX505DT-FX505DT:~/Desktop/Linux/Program1$ ln -s text1.txt SoftLink
+
+Creating a Hard Link
+asus@asus-TUF-Gaming-FX505DT-FX505DT:~/Desktop/Linux/Program1$ ln text1.txt HardLink
+
+Creating FIFO
+asus@asus-TUF-Gaming-FX505DT-FX505DT:~/Desktop/Linux/Program1$ mkfifo myFifo

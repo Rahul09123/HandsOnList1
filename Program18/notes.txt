@@ -1,0 +1,17 @@
+Name: Rahul Raman
+Roll no. : MT2025100
+Description: Write a program to perform Record locking.
+a. Implement write lock
+b. Implement read lock
+Create three records in a file. Whenever you access a particular record, first lock it then modify/access
+to avoid race condition.
+
+Note:
+
+ReadRecordLock1 locks the file from byte 12 to 22.
+ReadRecordLock2 locks the file from byte 12 to 17.
+Since both are read lock so they both can enter into the critical section.
+
+WriteRecordLock1 locks the file from byte 12 to 22.
+WriteRecordLock2 locks the file from byte 12 to 17.
+Since both are Read lock so they both can't enter into the critical section at the same time.
